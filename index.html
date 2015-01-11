@@ -9,42 +9,44 @@
 <body>
 	<div class="container">
 		<header class="header">
-			<h1>Martial Arts News</h1>
+			<h1>Martial Arts <span>News</span></h1>
 		</header>
 		<nav class="navigation">
 			<ul>
-				<li><a href="index.html">Начало</a></li>
-				<li><a href="index.html">Категории</a></li>
-				<li><a href="index.html">Галерия</a></li>
-				<li><a href="index.html">Ранглиста</a></li>
-				<li><a href="index.html">За нас</a></li>
+				<li><a href="index.html">НАЧАЛО</a></li>
+				<li><a href="index.html">КАТЕГОРИИ</a></li>
+				<li><a href="index.html">ГАЛЕРИЯ</a></li>
+				<li><a href="index.html">РАНГЛИСТА</a></li>
+				<li><a href="index.html">ЗА НАС</a></li>
 			</ul>
 		</nav>
 		<section class="main">
 			<section class="content">
-				<section class="last_news">
+			
+				<section class="box last_news">
 					<header class="last_news_header">
-						<h2>Последни новини</h2>
+						<h2>Последни <span>новини</span></h2>
 					</header>
 					<article class="article">
-						<h3>Статия1</h3>
+						<h3>Статия <span>1</span></h3>
 						<img src="img/1.png" height="150px" width="150px"/>
 						<p>Известен факт е, че читателя обръща внимание на съдържанието, което чете, а не на оформлението му. Свойството на Lorem Ipsum е, че до голяма степен има нормално разпределение на буквит</p>
 					</article>
 					<article class="article">
-						<h3>Статия2</h3>
+						<h3>Статия <span>2</span></h3>
 						<img src="img/2.png" height="150px" width="150px"/>
 						<p>Известен факт е, че читателя обръща внимание на съдържанието, което чете, а не на оформлението му. Свойството на Lorem Ipsum е, че до голяма степен има нормално разпределение на буквит</p>
 					</article>
 					<article  class="article">
-						<h3>Статия3</h3>
+						<h3>Статия <span>3</span></h3>
 						<img src="img/3.png" height="150px" width="150px"/>
 						<p>Известен факт е, че читателя обръща внимание на съдържанието, което чете, а не на оформлението му. Свойството на Lorem Ipsum е, че до голяма степен има нормално разпределение на буквит</p>
 					</article>
+					<div class="clearfix"></div>
 				</section>
-				<section class="last_photos">
+				<section class="box last_photos_header">
 					<header>
-						<h2>Последни снимки</h2>
+						<h2>Последни <span>снимки</span></h2>
 					</header>
 					<img src="img/4.png" width="150px" height="150px"/>
 					<img src="img/4.png" width="150px" height="150px"/>
@@ -57,25 +59,35 @@
 				</section>
 			</section>
 			<aside class="sidebar">
-				<section class="survey">
+				<section class="box survey">
 					<header class="survey_header">
 						<h2>Анкета</h2>
 					</header>
+					<p>Какъв Е въпросът ?</p>
 					<form method="post" action="">
-						<input type="radio" name="survey" value="1"/>
-						Кубрат Пулев<br>
-						<input type="radio" name="survey" value="2"/>
-						Кубрат Пулев<br>
-						<input type="radio" name="survey" value="3"/>
-						Кубрат Пулев<br>
-						<input type="radio" name="survey" value="4"/>
-						Кубрат Пулев<br>
-						<input type="submit" value="Гласувай">
+						<div class="survey_row">
+							<input type="radio" name="survey" value="1"/>
+							<span class="survey_text">Кубрат Пулев</span>
+						</div>
+						<div class="survey_row">
+							<input type="radio" name="survey" value="1"/>
+							<span class="survey_text">Кубрат Пулев</span>
+						</div>
+						<div class="survey_row">
+							<input type="radio" name="survey" value="1"/>
+							<span class="survey_text">Кубрат Пулев</span>
+						</div>
+						<div class="survey_row">
+							<input type="radio" name="survey" value="1"/>
+							<span class="survey_text">Кубрат Пулев</span>
+						</div>
+						
+						<input class="submit_btn" type="submit" value="Гласувай">
 					</form>
 				</section>
-				<section class="social_networks">
+				<section class="box social_networks">
 					<header class="social_header">
-						<h2>Social networks</h2>
+						<h2>Social <span>networks</span></h2>
 					</header>
 					<img src="img/fb.png"/>
 					<img src="img/twtr.png"/>
@@ -85,7 +97,7 @@
 			<div class="clearfix"></div>
 		</section>
 		<footer class="footer">
-		<p>Nqkuv footer tyka</p>
+		<p>Martial Arts News Copyright &#169; 2013-2015</p>
 		</footer>
 	</div>
 </body>
