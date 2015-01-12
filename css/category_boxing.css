@@ -51,45 +51,30 @@ html, body{
 
 .navigation a:hover{
 	color:  #f7313b;
-} 
-.box {
-	margin-bottom: 10px;
-}
-.box h2, h3, p{
-	color: #fff;
-}
-
-
-.box span{
-	color: #DED5D5;
 }
 
 .content{
 	float: left;
-	width: 640px;
+	width: 630px;
 }
 
-.sidebar{
-	float: left;
-	width: 320px;
+.content h2, h3{
+	color: #fff;
+}
+
+.content span{
+	color: #DED5D5;
 }
 
 .article{
-	width: 200px;
+	width: 610px;
 	float: left;
 	margin-left: 5px;
 	background: #4F4F4F;
-	text-align: center;
 	border-radius: 5px;
+	margin-bottom: 15px;
 }
-.article p{
-	color: #DED5D5;
-}
-.article img{
-	border: 1px solid black;
-	padding: 5px;
-	background: #fff;
-}
+
 .article h3{
 	border-radius: 5px;
 	margin: 0 0 10px 0;
@@ -101,16 +86,35 @@ html, body{
 	text-indent:10px;
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
+	font-size: 22px;
 }
 
-.last_photos_header img{
+.article p{
+	color: #DED5D5;
+	margin: 20px;
+}
+.article img{
+	height: 200px;
+	width: 250px;
+	margin: 5px 10px 5px 10px;
 	float: left;
-	margin: 5px;
-	border: 1px solid #000;
+	border: 1px solid black;
 	padding: 5px;
 	background: #fff;
-	width: 130px;
-	height: 130px;
+}
+
+.article blockquote{
+	clear: left;
+	margin-top: 100px;
+	background-color: #3D3D3D;
+	font-style: italic;
+	border: 1px solid black;
+}
+
+.sidebar{
+	float: left;
+	width: 320px;
+	margin-left: 10px;
 }
 
 .social_networks img{
@@ -137,6 +141,10 @@ html, body{
 	color: #fff;
 	padding: 5px 20px 5px 20px;
 	
+}
+
+.survey, .social_networks h2{
+	color: #fff;
 }
 
 .clearfix{
