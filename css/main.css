@@ -102,6 +102,53 @@ html, body{
 	border-bottom: 1px solid grey;
 }
 
+.article_full{
+	width: 610px;
+	float: left;
+	margin-left: 5px;
+	background: #4F4F4F;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+.article_full h3{
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	height: 30px;
+	display: block;
+	line-height: 30px;
+	background-color: #6E6767;
+	text-indent:10px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	font-size: 22px;
+}
+
+.article_full img{
+	height: 200px;
+	width: 250px;
+	margin: 5px 10px 5px 10px;
+	float: left;
+	border: 1px solid black;
+	padding: 5px;
+	background: #fff;
+}
+
+.article_full p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.article_full blockquote{
+	clear: left;
+	margin-top: 55px;
+	background-color: #3D3D3D;
+	font-style: italic;
+	border: 1px solid black;
+}
+
+
 .last_photos_header img{
 	float: left;
 	margin: 5px;
