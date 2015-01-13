@@ -1,0 +1,29 @@
+.gallery_container {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.gallery_container li{
+    padding:0;
+    margin:0;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.gallery_container li a{
+    text-align: center;
+    display: block;
+    padding:0;
+    margin:0;
+}
+
+.gallery_container li a img{
+    padding:0;
+    margin:0;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
