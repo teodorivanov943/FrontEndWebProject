@@ -16,7 +16,6 @@ html, body{
 	margin: 0 auto;
 }
 
-
 .header h1{
 	color: #fff;
 }
@@ -49,7 +48,7 @@ html, body{
 	text-decoration: none;
 }
 
-.navigation a:hover{
+.navigation a:hover, .navigation a.active{
 	color:  #f7313b;
 } 
 .box {
