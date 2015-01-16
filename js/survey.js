@@ -1,5 +1,8 @@
 function vote(){
-	for(var i = 1; i <= 5; i++)
+	var myRadioButtons = document.getElementsByName('survey');
+	var elements = myRadioButtons.length;
+	
+	for(var i = 1; i <= elements; i++)
 	{
 		var index = i.toString();
 		var choice = document.getElementById(index);
