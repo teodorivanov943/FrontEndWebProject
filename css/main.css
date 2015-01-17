@@ -72,7 +72,7 @@ html, body{
 	width: 320px;
 }
 
-.article{
+.article {
 	width: 200px;
 	float: left;
 	margin-left: 5px;
@@ -80,7 +80,7 @@ html, body{
 	text-align: center;
 	border-radius: 5px;
 }
-.article p{
+.article p, .table td{
 	color: #DED5D5;
 }
 .article img{
@@ -88,7 +88,7 @@ html, body{
 	padding: 5px;
 	background: #fff;
 }
-.article h3{
+.article h3, .table h3{
 	border-radius: 5px;
 	margin: 0 0 10px 0;
 	padding: 0;
@@ -101,7 +101,7 @@ html, body{
 	border-bottom: 1px solid grey;
 }
 
-.article_full{
+.article_full, .table{
 	width: 610px;
 	float: left;
 	margin-left: 5px;
@@ -157,6 +157,27 @@ html, body{
 	width: 130px;
 	height: 130px;
 }
+
+.table{
+	margin-bottom: 40px;
+}
+
+.table th{
+	background-color: #f7313b;
+	color: #fff;
+}
+
+.first td{
+	font-size: 18px;
+	color: #fff;
+	font-style: italic;
+	text-decoration: underline;
+}
+.table th, td{
+	border: 1px dotted grey;
+	text-align: center;
+	padding: 5px 0;
+} 
 
 .social_networks img{
 	width: 50px;
