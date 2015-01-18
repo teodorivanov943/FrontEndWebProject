@@ -10,7 +10,6 @@ function vote(){
 			index = '.'.concat(index);
 			var boxer = $(index).text();
 			var val = choice.value;
-			//var result = "Вие гласувахте за ".concat(boxer,"!");
 			$.ajax({
 				dataType: "json",
 				url: 'json/survey.json',
@@ -19,7 +18,8 @@ function vote(){
 						if(index == val)
 						{
 							var newresult = parseInt(value)+1;
-							alert(newresult);
+							var text = "Вие гласувахте за ".concat(boxer, "! ", "Общо гласували за ",boxer,": ", newresult); 
+							alert(text);
 						}
 					});
 				}
