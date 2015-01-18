@@ -216,6 +216,10 @@ html, body{
 		border-radius: 5px;
 		margin-bottom: 15px;
 	}
+	
+	.article{
+		min-width: 31%;
+	}
 }
 .article_full h3{
 	border-radius: 5px;
