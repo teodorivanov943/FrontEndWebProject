@@ -23,12 +23,12 @@ html, body{
 	padding: 3px;
 }
 
-.navigation ul{
+.navigation > ul{
 	margin: 0px;
 	padding: 2px;
 }
 
-.navigation li{
+.navigation > ul > li{
 	display: inline-block;
 	margin-right: 12px;
 }
@@ -104,16 +104,33 @@ html, body{
 }
 
 /* navigation style */
-.navigation li, a{
+.navigation ul li, a{
 	color: #fff;
 	font-size: 20px;
 	padding: 10px;
 	text-decoration: none;
 }
 
-.navigation a:hover, .navigation a.active{
+.navigation ul li > a:hover, .navigation a.active{
 	color:  #f7313b;
-} 
+}
+.navigation li{
+	overflow: hidden;
+}
+.submenu {
+	width: 180px;
+	background-color: #000;
+	position:absolute;
+	visibility:hidden;
+	margin: 0;
+	padding: 19px 0 0 0;
+}
+
+.submenu li{
+	display:block;
+	float:none;
+	border-bottom: 1px solid #fff;
+}
 
 /* article style */
 .article {
