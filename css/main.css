@@ -118,6 +118,7 @@ html, body{
 /* article style */
 .article {
 	width: 200px;
+	height: 470px;
 	float: left;
 	margin-left: 5px;
 	background: #4F4F4F;
@@ -136,7 +137,7 @@ html, body{
 	border-radius: 5px;
 	margin: 0 0 10px 0;
 	padding: 0;
-	height: 30px;
+	min-height: 30px;
 	display: block;
 	line-height: 30px;
 	background-color: #6E6767;
@@ -144,22 +145,20 @@ html, body{
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 }
-@media screen and (max-width: 580px){
-	.article img{
-		width: 100px;
-		height: 100px;
-	}
-} 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 653px){
 	.article {
-		width: 30%;
-		float: left;
+		margin-bottom: 10px;
+		width: 100%;
 		background: #4F4F4F;
 		text-align: center;
 		border-radius: 5px;
 	}
 	
+	.article img{
+		width: 200px;
+		height: 200px;
+	}
 }
 .article_full, .table{
 	width: 610px;
@@ -169,6 +168,7 @@ html, body{
 	border-radius: 5px;
 	margin-bottom: 15px;
 }
+
 @media screen and (max-width: 960px){
 	.article_full, .table{
 		width: 100%;
@@ -182,7 +182,6 @@ html, body{
 	border-radius: 5px;
 	margin: 0 0 10px 0;
 	padding: 0;
-	height: 30px;
 	display: block;
 	line-height: 30px;
 	background-color: #6E6767;
@@ -216,7 +215,7 @@ html, body{
 }
 
 /* last photos */
-.last_photos_header img{
+.last_photos img{
 	float: left;
 	margin: 5px;
 	border: 1px solid #000;
