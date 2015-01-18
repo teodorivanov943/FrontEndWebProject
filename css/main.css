@@ -64,8 +64,12 @@ html, body{
 	border-radius: 5px;
 	padding: 5px;
 	color: #fff;
+	float: none;
 }
-
+.navigation .mobile_nav {
+	visibility: hidden;
+	display: none;
+}
 
 @media screen and (max-width: 960px){
 	.container{
@@ -74,9 +78,26 @@ html, body{
 		padding: 10px;
 	}
 
-	.navigation li{
+	.navigation > ul > li{
 		display: block;
 		text-align: center;
+	}
+
+	.submenu{
+		visibility: visible;
+		display: block;
+		text-align: center;
+
+	}
+	.navigation .mobile_nav {
+		visibility: visible;
+		display: block;
+	}
+	.navigation .mobile_nav a{
+		border-bottom: 1px solid #fff;
+	}
+	.navigation .mobile_nav a:hover, .navigation .mobile_nav a.active{
+		color:  #f7313b;
 	}
 	
 	.content{
@@ -285,6 +306,38 @@ html, body{
 
 .survey_text {
 	color: #DED5D5;
+}
+
+/* Gallery style */
+
+.gallery_container {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.gallery_container li{
+	padding:0;
+	margin:0;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.gallery_container li a{
+	text-align: center;
+	display: block;
+	padding:0;
+	margin:0;
+}
+
+.gallery_container li a img{
+	padding:0;
+	margin:0;
+	text-align: center;
+	width: 150px;
+	height: 150px;
 }
 
 .submit_btn {
