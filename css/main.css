@@ -279,11 +279,20 @@ html, body{
 	font-style: italic;
 	text-decoration: underline;
 }
+
 .table th, td{
 	border: 1px dotted grey;
 	text-align: center;
 	padding: 5px 0;
 } 
+
+.comment {
+	height: 200px;
+	width: 400px;
+	margin-bottom: 10px;
+	
+}
+
 
 /* social networks */
 .social_networks img{
