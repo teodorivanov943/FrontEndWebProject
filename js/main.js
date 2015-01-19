@@ -1,11 +1,4 @@
 $(document).ready(function(){
-    //Gallery code
-    $(document).ready(function(){
-        $(".group1").colorbox({rel:'group1'});
-    });
-
-
-
     //submenu code
     $('.navigation ul > li').bind('mouseover', openSubMenu);
     $('.navigation ul > li').bind('mouseout', closeSubMenu);
