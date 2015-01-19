@@ -54,9 +54,10 @@ function vote(){
     }
 }
 
+//contact form code
 function send(){
 	if($('.input_name').val() == ""){
-		alert('Не сте въвели име!');
+		alert("Не сте въвели име!");
 	}
 	else if($('.input_email').val() == ""){
 		alert("Не сте въвели e-mail");
@@ -65,6 +66,6 @@ function send(){
 		alert("Не сте въвели съобщение");
 	}
 	else{
-		alert('Съобщението получено! ');
+		alert("Съобщението получено! ");
 	}
 }
