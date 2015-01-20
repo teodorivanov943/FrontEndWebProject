@@ -18,7 +18,7 @@ $(document).ready(function(){
     //share code
 
     $('.share').click(function(){
-        var name = $(this).attr('name');
+        var name = $(this).attr('id');
         alert("Споделено чрез ".concat(name));
     });
 });
